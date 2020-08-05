@@ -83,7 +83,7 @@ if __name__ == '__main__':
     os.chdir("./pictures/")
     pictures = os.listdir('.')
     pic = pictures[2]
-    Json_data, pandas_data = dataFromPictures(pic, "AKIDf9OM3GjdngZ4LMccT3oNq9D1lERN5SaT", "mS6VcU6RVIyNVMx2rPxGI3YnsgDSYOxH")
+    Json_data, pandas_data = dataFromPictures(pic, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
     print("Extraction of " + pic + " is finished.")
 
     index_list = ['1.合格证编号', '2.发证日期', '3.车辆制造企业名称', '4.车辆品牌/车辆名称', '5.车辆型号', '6.车辆识别号/车架号', '11.发动机号']
